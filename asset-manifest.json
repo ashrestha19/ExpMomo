@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ExpMomo/static/css/main.8b89fd86.chunk.css",
+    "main.js": "/ExpMomo/static/js/main.ff3d2524.chunk.js",
+    "main.js.map": "/ExpMomo/static/js/main.ff3d2524.chunk.js.map",
+    "runtime~main.js": "/ExpMomo/static/js/runtime~main.44ad2223.js",
+    "runtime~main.js.map": "/ExpMomo/static/js/runtime~main.44ad2223.js.map",
+    "static/js/2.b4fb29fb.chunk.js": "/ExpMomo/static/js/2.b4fb29fb.chunk.js",
+    "static/js/2.b4fb29fb.chunk.js.map": "/ExpMomo/static/js/2.b4fb29fb.chunk.js.map",
+    "index.html": "/ExpMomo/index.html",
+    "precache-manifest.cb1f3a8942f40546a985a55d9bc3c1ef.js": "/ExpMomo/precache-manifest.cb1f3a8942f40546a985a55d9bc3c1ef.js",
+    "service-worker.js": "/ExpMomo/service-worker.js",
+    "static/css/main.8b89fd86.chunk.css.map": "/ExpMomo/static/css/main.8b89fd86.chunk.css.map",
+    "static/media/pex-1.jpg": "/ExpMomo/static/media/pex-1.d5f3b884.jpg",
+    "static/media/pex-2.jpg": "/ExpMomo/static/media/pex-2.167a36ae.jpg",
+    "static/media/pex-3.jpg": "/ExpMomo/static/media/pex-3.4cc60fa8.jpg"
+  }
+}
