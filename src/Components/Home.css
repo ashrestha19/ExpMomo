@@ -1,0 +1,18 @@
+.jumbotron {
+    margin-top: 9px;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: auto 100%;;
+    border-bottom:1px solid #ff6a00
+  }
+  .jumbotron .container {
+    position:relative;
+  }
+
+  .about-page {
+    margin-top: 4.25rem !important;
+  }
+
+  .client-form {
+    margin-top: 5.25rem !important;
+  }
