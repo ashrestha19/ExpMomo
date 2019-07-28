@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ExpMomo/precache-manifest.cb1f3a8942f40546a985a55d9bc3c1ef.js"
+  "/ExpMomo/precache-manifest.7f94cf3581465dd5dce04f93f9b56238.js"
 );
 
 self.addEventListener('message', (event) => {
