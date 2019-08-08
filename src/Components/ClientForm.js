@@ -1,23 +1,19 @@
 import React from 'react';
-import {Form, Col,Row, Container, Figure, Button, DropdownButton, Dropdown, Toast, Alert } from 'react-bootstrap';
+import {Form, Col,Row, Container, Button, DropdownButton, Dropdown } from 'react-bootstrap';
+import  FigureImages  from './helper/FigureImages.js'
+import InfoMessage from './helper/InfoMessage';
+
 const ClientForm = () => {
+    const clientCap = "We stand by what we believe in...";
+    const clientInfo ="We will contact you when your order is done..";
     return (
-        <Container  className="client-form">
+        <Container className="client-form">
         <Row>
             <Col>
-            <div class="text-center">
-                            <Figure>
-                                <Figure.Image
-                                    width={171}
-                                    height={180}
-                                    alt="171x180"
-                                    src="assets/logo2.png" 
-                                />
-                                <Figure.Caption>
-                                    We stand by what we believe in...
-                                </Figure.Caption>
-                                </Figure>   
-                            </div></Col>
+                <div className="text-center">
+                    <FigureImages caption={clientCap} src="logo2"> </FigureImages>
+                </div>
+            </Col>
             <Col xs={6}>
                 <Form>
                     <Form.Group controlId="formBasicName">
@@ -37,25 +33,25 @@ const ClientForm = () => {
                         <Form.Control type="text" placeholder="Phone Number" />
                     </Form.Group>
 
-                    <DropdownButton variant="info" id="dropdown-item-button" title="Select A Location">
+                    <Form.Group controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Quantity And any special request</Form.Label>
+                    <Form.Control as="textarea" rows="3"  />
+                </Form.Group>
+
+                    <DropdownButton variant="info" id="dropdown-item-button" title="Pickup Location">
                         <Dropdown.Item as="button">Maple Grove</Dropdown.Item>
                         <Dropdown.Item as="button">St. Louis Park</Dropdown.Item>
                         <Dropdown.Item as="button">Eden Prairie</Dropdown.Item>
-                    </DropdownButton>
-                  <Alert variant="light">
-                  <p>We will contact you when your order is done..</p>
-                  </Alert>
-                    <Button variant="outline-info" type="submit">
-                        Submit
-                    </Button>
+                    </DropdownButton>            
+
+                <InfoMessage children={clientInfo} ></InfoMessage>               
+                <Button  disabled variant="outline-info" type="submit">Submit</Button>
                 </Form>
             </Col>
-            <Col></Col>
+            <Col>
+            </Col>
         </Row>
         </Container>
-         
-     
-
     );
 }
  
